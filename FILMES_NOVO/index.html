@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt">
+	<head>
+		<title id="desc">Caça Referências</title>
+
+		<link rel="shortcut icon" href="imagens/logo_ofc.png">
+		<meta name="description" content="QUANTOS FILMES VOCÊ CONSEGUE ENCONTRAR ?">
+		<meta charset="utf-8">
+
+		<!-- RESPONSIVO -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<meta property="og:title" content="Caça Referências" />
+		<meta property="og:url" content="http://cacareferencias.epizy.com/" />
+		<meta property="og:image" content="http://cacareferencias.epizy.com/imagens/backgroud.png" />
+
+		<script src="script/script.js"></script>
+
+		<link href="style.css" rel="stylesheet">
+		
+		<style type="text/css">
+
+		/* 🔥 BASE RESPONSIVA */
+		img{
+			max-width: 100%;
+			height: auto;
+		}
+
+		#fundo{
+			width: 100%;
+			max-width: 1200px;
+			margin: 0 auto;
+		}
+
+		#resposta input{
+			max-width: 300px;
+			width: 100%;
+		}
+
+		/* 📱 NÃO BLOQUEIA MAIS TOTALMENTE */
+		#vire{
+			display: none;
+		}
+
+		@media (orientation: portrait){
+			#vire{
+				position: absolute;
+				display: block;
+				background-color: #424247;
+				width: 100%;
+				font-size: 40px;
+				text-align: center;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+			}
+		}
+
+  		</style>
+
+	</head>
+
+	<body id="corpo">
+
+<!INICIO DA PAGINA DO JOGO//>
+		<figure id="fig">
+			
+		    <img id="resultado" src="imagens/backgroud.png">
+
+		</figure>
+
+		<div id="vire">
+			<img src="imagens/tela_vertical.png" >
+		</div>
+
+		<!ICONES DE ACERTO NO JOGO//>
+		<div id="fundo">
+			<img id="logo" src="">
+
+			<div id="nemo" class="check-item">
+				<div class="check"></div>
+
+				<div class="descricao">
+					Esta é uma almofada do personagem Nemo do filme Procurando Nemo
+				</div>
+			</div>	
+
+			<div id="mascara" class="check-item">
+				<div class="check"></div>
+
+				<div class="descricao">
+					Esta é a máscara do filme O Máskara
+				</div>
+			</div>
+
+			<div id="macaco" class="check-item">
+				<div class="check"></div>
+
+				<div class="descricao">
+					Esta é a janela do sotão que era o quarto do personagem Cesar no filme Planeta dos Macacos de 2011
+				</div>
+			</div>
+
+			<div id="anel" class="check-item">
+				<div class="check"></div>
+
+				<div class="descricao">
+					Esta é a Torre Negra do filme Senhor dos Aneis
+				</div>
+			</div>
+
+			<div id="pirata" class="check-item">
+				<div class="check"></div>
+
+				<div class="descricao">
+					Um quadro com O símbolo principal de Piratas do Caribe, "Jolly Roger"
+				</div>
+			</div>
+
+			<div id="extra" class="check-item">
+				<div class="check"></div>
+
+				<div class="descricao">
+					O capacete de astronalta usado por Auggie Pullman no filme Extraordirario de 2017
+				</div>
+			</div>
+
+			<div id="jogos" class="check-item">
+				<div class="check"></div>
+
+				<div class="descricao">
+					Cena do filme Jogos Vorazes - A Esperança
+				</div>
+			</div>
+
+			<div id="mib" class="check-item">
+				<div class="check"></div>
+
+				<div class="descricao">
+					Alguns itens do filme Homens de Preto (Oculos, Relógio e "Pistola")
+				</div>
+			</div>
+
+			<div id="jumanji" class="check-item">
+				<div class="check"></div>
+
+				<div class="descricao">
+					O tabuleiro de Jumanji do filme Jumanji de 1995
+				</div>
+			</div>
+
+			<div id="matrix" class="check-item">
+				<div class="check"></div>
+
+				<div class="descricao">
+					As pílulas de Matrix, oferecidas por Morpheus a Neo no filme Matrix
+				</div>
+			</div>
+
+			<!AREA DE RESPOSTAS//>			
+			<div id="resposta">
+				<input type="text" id="resp" placeholder="Digite aqui o nome do filme"
+					style="text-transform: uppercase;"
+					onkeydown="if(event.key === 'Enter'){ resposta(); }">
+				<input type="submit" class="enviar" id="vai" onclick="resposta()" value="Tentar" />
+				<div class = "btn-box">
+					<input type="button" id="Placar" value="0">
+					<div class="descricao">
+						Quantidade de Acertos
+					</div>
+				</div>
+			</div>
+
+			<!ALERTA DE ERRO//>
+			<div id="alert">
+				<font color="#f7f7fa" aligne="center">
+				 Você errou, ou talvez jà tenha marcado esta referência, tente outro filme.<br>
+				<button id="ok" onclick="fechar()">OK</button>
+				</font>
+			</div>
+
+			<!MENSSAGEM DE FIM DE JOGO//>
+			<div id="pontof" class="fim">
+
+				<p id="msgf">Você fez 0 acertos.</p>
+
+				<div class="botoes-fim">
+					<button id="reiniciar" onclick="reiniciar()">Reiniciar</button>
+
+					<button id="compartilhar" onclick="compartilhar()">
+						Compartilhar
+					</button>
+
+					<button id="sair" onclick="sairDoJogo()">
+						Sair do Jogo
+					</button>
+				</div>
+
+			</div>
+			<button id="mdesc" onclick="descricao()">Finalizar</button>
+		</div>	
+
+			
+	</body>
+</html>
+

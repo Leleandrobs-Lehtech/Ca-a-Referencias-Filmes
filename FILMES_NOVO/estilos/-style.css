@@ -1,0 +1,113 @@
+/* RESET BÁSICO */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #424247;
+	font-family: Arial, sans-serif;
+	text-align: center;
+}
+
+/* IMAGENS RESPONSIVAS */
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+/* CONTAINER PRINCIPAL */
+#fundo{
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+	position: relative;
+}
+
+/* IMAGEM DO JOGO */
+#fig{
+	width: 100%;
+}
+
+#resultado{
+	width: 100%;
+}
+
+/* CHECKS */
+.certo{
+	width: 30px;
+	height: 30px;
+}
+
+/* INPUT */
+#resposta{
+	margin-top: 15px;
+}
+
+#resposta input{
+	width: 100%;
+	max-width: 300px;
+	margin: 5px;
+	padding: 10px;
+	font-size: 16px;
+}
+
+/* ALERTA */
+#alert{
+	display: none;
+	background: #222;
+	color: #fff;
+	padding: 15px;
+	margin-top: 10px;
+}
+
+.alert-text{
+	color: #f7f7fa;
+}
+
+/* FIM DE JOGO */
+.fim{
+	display: none;
+	margin-top: 20px;
+}
+
+/* RODAPÉ */
+#rodape{
+	margin-top: 20px;
+}
+
+/* TELA DE GIRAR */
+#vire{
+	display: none;
+	position: absolute;
+	width: 100%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+/* RESPONSIVO */
+
+/* TABLET */
+@media (max-width: 768px){
+	.certo{
+		width: 20px;
+		height: 20px;
+	}
+}
+
+/* CELULAR */
+@media (max-width: 480px){
+	#resposta input{
+		font-size: 14px;
+		padding: 8px;
+	}
+}
+
+/* ORIENTAÇÃO RETRATO */
+@media (orientation: portrait){
+	#vire{
+		display: block;
+	}
+}
