@@ -193,9 +193,12 @@ function fechar(){
 }
 
 
-function fechar2(){
+function fechar(){
 
-    document.getElementById('instrucao').style.display = 'none';
+    document.getElementById('alert').style.display = 'none';
+
+    // Devolve o foco para a caixa de resposta
+    document.getElementById('resp').focus();
 
 }
 
@@ -307,3 +310,23 @@ function sairDoJogo(){
         "COLOQUE_AQUI_O_LINK_DO_SEU_GOOGLE_SITES";
 
 }
+
+document.addEventListener('keydown', function(event){
+
+    var alerta = document.getElementById('alert');
+
+    // Verifica se o alerta está aberto
+    if (alerta && alerta.style.display == 'flex'){
+
+        // Se apertar ENTER
+        if (event.key === 'Enter'){
+
+            event.preventDefault();
+
+            fechar();
+
+        }
+
+    }
+
+});
