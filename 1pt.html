@@ -1,13 +1,16 @@
 <!DOCTYPE html>
+
 <html lang="pt-BR">
 <head>
 
 <meta charset="UTF-8">
 
-<title>Caça Referências - 1 filme encontrado</title>
+<title>Caça Referências - 1 filmes encontrados</title>
+
+<!-- FACEBOOK -->
 
 <meta property="og:title" content="Caça Referências">
-<meta property="og:description" content="Eu encontrei 1 filme em Caça Referências!">
+<meta property="og:description" content="Eu encontrei 10 filmes em Caça Referências!">
 
 <meta property="og:image" content="https://leleandrobs-lehtech.github.io/Ca-a-Referencias-Filmes/imagens/1pt.png">
 <meta property="og:image:width" content="1080">
@@ -18,7 +21,7 @@
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Caça Referências">
-<meta name="twitter:description" content="Eu encontrei 1 filme em Caça Referências!">
+<meta name="twitter:description" content="Eu encontrei 10 filmes em Caça Referências!">
 <meta name="twitter:image" content="https://leleandrobs-lehtech.github.io/Ca-a-Referencias-Filmes/imagens/1pt.png">
 
 <style>
@@ -32,19 +35,22 @@ body{
     overflow:hidden;
 }
 
+/* IMAGEM QUE O FACEBOOK TAMBÉM USA */
 #fundo{
     position:fixed;
     top:0;
     left:0;
+
     width:100%;
     height:100%;
 
-    background-image:url("imagens/1pt.png");
+    background-image:url("imagens/10pt.png");
     background-size:cover;
     background-position:center;
     background-repeat:no-repeat;
 }
 
+/* DIV QUE COBRE TODO O FUNDO */
 #espera{
     position:fixed;
     top:0;
@@ -56,12 +62,14 @@ body{
     background-color:#424247;
 
     display:flex;
+
     align-items:center;
     justify-content:center;
 
     z-index:9999;
 }
 
+/* LOGO GIRANDO */
 #logo{
     width:150px;
     height:150px;
@@ -71,6 +79,7 @@ body{
     animation:girar 2s linear infinite;
 }
 
+/* ANIMAÇÃO */
 @keyframes girar{
 
     from{
@@ -89,15 +98,23 @@ body{
 
 <body>
 
+<!-- FUNDO 10pt.png -->
+
 <div id="fundo"></div>
+
+<!-- COBRE TODO O FUNDO -->
 
 <div id="espera">
 
-    <img id="logo" src="imagens/logo_ofc.png">
+```
+<img id="logo" src="imagens/logo_ofc.png">
+```
 
 </div>
 
 <script>
+
+/* Aguarda 5 segundos e volta para o jogo */
 
 setTimeout(function(){
 
