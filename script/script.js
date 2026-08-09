@@ -41,18 +41,16 @@ function soma(){
     // Quando encontrar os 10 filmes
     if (pontos == 9){
 
-        let total = pontos + 1;
+    let total = pontos + 1;
 
-        document.getElementById('msgf').innerHTML =
-            "Parabéns! Você encontrou " + total + " filmes!";
+    document.getElementById('msgf').innerHTML =
+        'Parabéns! Você encontrou ' + total + ' filmes!';
 
-        document.getElementById('pontof').style.display = 'flex';
+    document.getElementById('pontof').style.display = 'flex';
 
-        document.getElementById('vai').style.display = 'none';
-        document.getElementById('Placar').style.display = 'none';
-        document.getElementById('resp').style.display = 'none';
-        document.getElementById('mdesc').style.display = 'none';
-    }
+    document.getElementById('muda').href =
+        'https://leleandrobs-lehtech.github.io/Ca-a-Referencias-Filmes/10pt.html';
+}
 }
 
 function resposta() {
@@ -144,17 +142,31 @@ function mostrar(){
 // 🔥 NOVO FINAL COM CONFIRMAÇÃO
 function descricao(){
 
+    // Pega a quantidade de acertos
     var pontos = parseInt(document.getElementById('Placar').value);
 
-    document.getElementById('msgf').innerHTML =
-        "Você fez " + pontos + " acertos.";
-
-    document.getElementById('pontof').style.display = 'flex';
-
+    // Esconde os controles do jogo
     document.getElementById('vai').style.display = 'none';
     document.getElementById('Placar').style.display = 'none';
     document.getElementById('resp').style.display = 'none';
-    document.getElementById('mdesc').style.display = 'none';
+
+    // Mostra a tela final
+    document.getElementById('pontof').style.display = 'flex';
+
+    // Mensagem
+    if (pontos == 1){
+        document.getElementById('msgf').innerHTML =
+        'Você encontrou 1 filme!';
+    }
+    else {
+        document.getElementById('msgf').innerHTML =
+        'Você encontrou ' + pontos + ' filmes!';
+    }
+
+    // Define a página de compartilhamento
+    document.getElementById('muda').href =
+        'https://leleandrobs-lehtech.github.io/Ca-a-Referencias-Filmes/' 
+        + pontos + 'pt.html';
 }
 
 // 🔥 BOTÃO NÃO
