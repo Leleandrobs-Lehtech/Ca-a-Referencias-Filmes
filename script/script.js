@@ -189,7 +189,14 @@ else if (filme == tix || filme == tix2 || filme == tix3){
 
 }
 
-// FECHAR MENSAGEM DE ERRO
+function fechar(){
+
+```
+document.getElementById('alert').style.display = 'none';
+```
+
+}
+
 function fechar(){
 
 ```
@@ -197,14 +204,6 @@ document.getElementById('alert').style.display = 'none';
 
 // Devolve o foco para a caixa de resposta
 document.getElementById('resp').focus();
-```
-
-}
-
-function fechar2(){
-
-```
-document.getElementById('instrucao').style.display = 'none';
 ```
 
 }
@@ -325,15 +324,15 @@ window.location.href =
 
 }
 
-// ENTER FECHA A MENSAGEM DE ERRO
 document.addEventListener('keydown', function(event){
 
 ```
 var alerta = document.getElementById('alert');
 
-// Verifica se a mensagem de erro está realmente visível
-if (alerta && getComputedStyle(alerta).display !== 'none'){
+// Verifica se o alerta está aberto
+if (alerta && alerta.style.display == 'flex'){
 
+    // Se apertar ENTER
     if (event.key === 'Enter'){
 
         event.preventDefault();
