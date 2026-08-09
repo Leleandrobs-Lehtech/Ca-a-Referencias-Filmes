@@ -303,10 +303,8 @@ function compartilhar(){
 // SAIR DO JOGO
 function sairDoJogo(){
 
-```
-window.location.href =
-    "https://sites.google.com/view/lehtraducoes/jogos-html";
-```
+    window.location.href =
+        "https://sites.google.com/view/lehtraducoes/jogos-html";
 
 }
 
