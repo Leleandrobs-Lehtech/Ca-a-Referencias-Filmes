@@ -1,0 +1,754 @@
+#corpo{
+	background-color: #424247;
+	background-size: 100%;
+
+}
+
+/** PC**/
+@media screen and (min-width: 1280px) and (orientation: landscape){
+#fundo {
+		position: relative;
+		background-image: url("fundo.jpg") ;
+
+		width: 100%;
+		height: 800px;
+		background-repeat: no-repeat;
+		background-size: 100% 98%;
+}
+
+		.certo{
+			position: absolute;
+			
+			width: 100%;
+			height: 100%;
+		}
+
+		#nemo{
+			position: absolute;
+			display: none;
+			width: 30px;
+			height: 30px;
+			right: 62%;
+			top: 60%;
+		}
+		
+		#mascara{
+			position: absolute;
+			display: none;
+			width: 30px;
+			height: 30px;
+			right: 80%;
+			top: 50%;
+		}
+
+		#macaco{
+			position: absolute;
+			display: none;
+			width: 30px;
+			height: 30px;
+			right: 45%;
+			top: 38%;
+		}
+
+		#anel{
+			position: absolute;
+			display: none;
+			width: 30px;
+			height: 30px;
+			right: 50%;
+			top: 42%;
+		}
+
+		#pirata{
+			position: absolute;
+			display: none;
+			width: 30px;
+			height: 30px;
+			right: 38%;
+			top: 50%;
+		}
+
+		#extra{
+			position: absolute;
+			display: none;
+			width: 30px;
+			height: 30px;
+			right: 43%;
+			top: 60%;
+		}
+
+		#jogos{
+			position: absolute;
+			display: none;
+			width: 30px;
+			height: 30px;
+			right: 20%;
+			top: 50%;
+		}
+
+		#mib{
+			position: absolute;
+			display: none;
+			width: 30px;
+			height: 30px;
+			right: 10%;
+			top: 85%;
+		}
+
+		#jumanji{
+			position: absolute;
+			display: none;
+			width: 30px;
+			height: 30px;
+			right: 38%;
+			top: 85%;
+		}
+
+		#matrix{
+			position: absolute;
+			display: none;
+			width: 30px;
+			height: 30px;
+			right: 53%;
+			top: 75%;
+		}
+		#alert{
+			background-color: #424247;
+			width: 30%;
+			height: 25%;
+			text-align: center;
+			top: 40%;
+			right: 35%;
+			position: absolute;
+			border-radius: 20px;
+			font-size: 30px;
+			border-style: #ffffff;
+			text-shadow: 5px 5px 5px #000000;
+			display: none;
+
+		}
+
+		#ok{
+			padding: 3%;
+			border:none;
+			background-color: #0e9fed;
+			color:#ffffff ;
+			font-size: 80%;
+			border-radius: 10px;
+			cursor:pointer;
+		}
+
+		#resposta{
+			position: absolute;
+			right: 15%;
+			top: 20%;
+			width: 40%;
+		}
+
+	
+
+		input[type="submit"]{
+			padding: 2%;
+			border:none;
+			background-color: #0e9fed;
+			color:#ffffff ;
+			text-transform: uppercase;
+			border-radius: 10px;
+			cursor:pointer;
+		}
+
+		input[type="text"]{
+			padding: 2%;
+			border-radius: 10px;
+			
+			width: 42%;
+
+		}
+
+		input[type="button"]{
+			padding: 2%;
+			border:none;
+			background-color:  #424247;
+			color:#ffffff ;
+			text-transform: uppercase;
+			border-radius: 10px;
+			
+		}
+
+		#pontuacao{
+			background-color:  #424247;
+			width: 20%;
+			border-radius: 10px;
+			color: #ffffff ; 
+		}
+
+		#instrucao{
+			background-color: #424247;
+			opacity: 95%;
+			width: 30%;
+			height: 28%;
+			text-align: center;
+			font-size: 20px;
+			color: #ffffff;
+			top: 60%;
+			right: 60%;
+			position: absolute;
+			border-radius: 10%;
+			
+			text-shadow: 5px 5px 5px #000000;
+			
+			
+		}
+
+		#reg{
+			border:none;
+			padding: 1%;
+			position: absolute;
+			right: 70%;
+			background-color: #0e9fed;
+			color:#ffffff ;
+			border-radius: 10px;
+			cursor:pointer;
+
+
+		}
+
+		#ok2{
+			padding: 2%;
+			border:none;
+			background-color: #0e9fed;
+			color:#ffffff ;
+			font-size: 90%;
+			border-radius: 10%;
+			cursor:pointer;
+			
+		}
+
+		#face{
+			width: 15%;
+			height: 5%;
+			position: absolute;
+			right: 45%;
+		}
+
+		#whatsapp{
+			width: 5%;
+			height: 5%;
+			position: absolute;
+			right: 30%;
+		}
+
+		#fim{
+			background-color: #424247;
+			width: 30%;
+			height: 25%;
+			text-align: center;
+			font-size: 35px;
+			top: 40%;
+			right: 35%;
+			position: absolute;
+			border-radius: 20px;
+			color: #fff;
+			border-style: #ffffff;
+			text-shadow: 5px 5px 5px #000000;
+			display: none;
+			z-index: 1;
+		}
+}
+
+/** TABEL**/
+@media screen and (min-width: 1024px) and (max-width: 1279) and (orientation: landscape){
+	#fundo {
+		position: relative;
+		background-image: url("fundo.jpg") ;
+
+		width: 100%;
+		height: 800px;
+		background-repeat: no-repeat;
+		background-size: 100% 99%;
+
+}	
+		#nemo{
+			position: absolute;
+			display: none;
+			width: 4%;
+			height: 6%;
+			right: 60%;
+			top: 60%;
+
+		}
+
+		#mascara{
+			position: absolute;
+			display: none;
+			width: 4%;
+			height: 6%;
+			right: 80%;
+			top: 50%;
+		}
+
+		#macaco{
+			position: absolute;
+			display: none;
+			width: 4%;
+			height: 6%;
+			right: 45%;
+			top: 38%;
+		}
+
+		#anel{
+			position: absolute;
+			display: none;
+			width: 4%;
+			height: 6%;
+			right: 50%;
+			top: 47%;
+		}
+
+		#pirata{
+			position: absolute;
+			display: none;
+			width: 4%;
+			height: 6%;
+			right: 38%;
+			top: 50%;
+		}
+
+		#extra{
+			position: absolute;
+			display: none;
+			width: 4%;
+			height: 6%;
+			right: 43%;
+			top: 60%;
+		}
+
+		#jogos{
+			position: absolute;
+			display: none;
+			width: 4%;
+			height: 6%;
+			right: 20%;
+			top: 50%;
+		}
+
+		#mib{
+			position: absolute;
+			display: none;
+			width: 4%;
+			height: 6%;
+			right: 10%;
+			top: 85%;
+		}
+
+		#jumanji{
+			position: absolute;
+			display: none;
+			width: 4%;
+			height: 6%;
+			right: 38%;
+			top: 85%;
+		}
+
+		#matrix{
+			position: absolute;
+			display: none;
+			width: 4%;
+			height: 6%;
+			right: 53%;
+			top: 75%;
+		}
+		#alert{
+			background-color: #424247;
+			width: 30%;
+			height: 25%;
+			text-align: center;
+			font-size: 25px;
+			top: 40%;
+			right: 35%;
+			position: absolute;
+			border-radius: 20px;
+			
+			border-style: #ffffff;
+			text-shadow: 5px 5px 5px #000000;
+			display: none;
+
+		}
+
+		#ok{
+			padding: 2%;
+			border:none;
+			background-color: #0e9fed;
+			color:#ffffff ;
+			font-size: 90%;
+			border-radius: 10px;
+			cursor:pointer;
+		}
+
+		#resposta{
+			position: absolute;
+			right: 15%;
+			top: 20%;
+			width: 40%;
+		}
+
+	
+
+		input[type="submit"]{
+			padding: 5%;
+			border:none;
+			background-color: #0e9fed;
+			color:#ffffff ;
+			font-size: 100%;
+			border-radius: 10px;
+			cursor:pointer;
+		}
+
+		input[type="text"]{
+			padding: 5%;
+			border-radius: 10px;
+
+		}
+
+		input[type="button"]{
+			padding: 5%;
+			border:none;
+			background-color:  #424247;
+			color:#ffffff ;
+			font-size: 100%;
+			border-radius: 10px;
+			
+		}
+
+		#pontuacao{
+			background-color:  #424247;
+			width: 20%;
+			border-radius: 10px;
+			color: #ffffff ; 
+		}
+
+		#instrucao{
+			background-color: #424247;
+			opacity: 95%;
+			width: 30%;
+			height: ;
+			text-align: center;
+			font-size: 20px;
+			color: #ffffff;
+			top: 50%;
+			right: 60%;
+			position: absolute;
+			border-radius: 10%;
+			
+			text-shadow: 5px 5px 5px #000000;
+			
+			
+		}
+
+		#reg{
+			border:none;
+			padding: 1%;
+			position: absolute;
+			right: 70%;
+			background-color: #0e9fed;
+			color:#ffffff ;
+			border-radius: 10px;
+			cursor:pointer;
+
+
+		}
+
+		#ok2{
+			padding: 2%;
+			border:none;
+			background-color: #0e9fed;
+			color:#ffffff ;
+			font-size: 90%;
+			border-radius: 10%;
+			cursor:pointer;
+			
+		}
+
+		#face{
+			width: 15%;
+			height: 5%;
+			position: absolute;
+			right: 45%;
+		}
+
+		#whatsapp{
+			width: 5%;
+			height: 5%;
+			position: absolute;
+			right: 30%;
+		}
+
+		#fim{
+			background-color: #424247;
+			width: 30%;
+			height: 25%;
+			text-align: center;
+			font-size: 30px;
+			top: 40%;
+			right: 35%;
+			position: absolute;
+			border-radius: 20px;
+			color: #fff;
+			border-style: #ffffff;
+			text-shadow: 5px 5px 5px #000000;
+			display: none;
+			z-index: 1;
+		}
+}
+
+/** CELULAR**/
+@media screen and (min-width: 960px) and (max-width: 1023px) and (orientation: landscape){
+	#fundo {
+		position: relative;
+		background-image: url("fundo.jpg") ;
+
+		width: 100%;
+		height: 400px;
+		background-repeat: no-repeat;
+		background-size: 100% 98%;
+}
+
+		.certo{
+			position: absolute;
+			
+			width: 100%;
+			height: 100%;
+		}
+
+		#nemo{
+			position: absolute;
+			
+			width: 4%;
+			height: 6%;
+			right: 62%;
+			top: 60%;
+
+		}
+
+		#mascara{
+			position: absolute;
+			display: none;
+			width: 4%;
+			height: 6%;
+			right: 80%;
+			top: 50%;
+		}
+
+		#macaco{
+			position: absolute;
+			display: none;
+			width: 4%;
+			height: 6%;
+			right: 45%;
+			top: 38%;
+		}
+
+		#anel{
+			position: absolute;
+			display: none;
+			width: 4%;
+			height: 6%;
+			right: 50%;
+			top: 47%;
+		}
+
+		#pirata{
+			position: absolute;
+			display: none;
+			width: 4%;
+			height: 6%;
+			right: 38%;
+			top: 50%;
+		}
+
+		#extra{
+			position: absolute;
+			display: none;
+			width: 4%;
+			height: 6%;
+			right: 43%;
+			top: 60%;
+		}
+
+		#jogos{
+			position: absolute;
+			display: none;
+			width: 4%;
+			height: 6%;
+			right: 20%;
+			top: 50%;
+		}
+
+		#mib{
+			position: absolute;
+			display: none;
+			width: 4%;
+			height: 6%;
+			right: 10%;
+			top: 85%;
+		}
+
+		#jumanji{
+			position: absolute;
+			display: none;
+			width: 4%;
+			height: 6%;
+			right: 38%;
+			top: 85%;
+		}
+
+		#matrix{
+			position: absolute;
+			display: none;
+			width: 4%;
+			height: 6%;
+			right: 53%;
+			top: 75%;
+		}
+		#alert{
+			background-color: #424247;
+			width: 30%;
+			height: 25%;
+			text-align: center;
+			font-size: 20px;
+			top: 40%;
+			right: 35%;
+			position: absolute;
+			border-radius: 20px;
+			
+			border-style: #ffffff;
+			text-shadow: 5px 5px 5px #000000;
+			display: none;
+
+		}
+
+		#ok{
+			padding: 2%;
+			border:none;
+			background-color: #0e9fed;
+			color:#ffffff ;
+			font-size: 90%;
+			border-radius: 8px;
+			cursor:pointer;
+		}
+
+		#resposta{
+			position: absolute;
+			right: 9%;
+			top: 20%;
+			width: 40%;
+		}
+
+	
+
+		input[type="submit"]{
+			padding: 5%;
+			border:none;
+			background-color: #0e9fed;
+			color:#ffffff ;
+			font-size: 100%;
+			border-radius: 10px;
+			cursor:pointer;
+		}
+
+		input[type="text"]{
+			padding: 5%;
+			border-radius: 10px;
+
+		}
+
+		input[type="button"]{
+			padding: 5%;
+			border:none;
+			background-color:  #424247;
+			color:#ffffff ;
+			font-size: 100%;
+			border-radius: 10px;
+			
+		}
+
+		#pontuacao{
+			background-color:  #424247;
+			width: 20%;
+			border-radius: 10px;
+			color: #ffffff ; 
+		}
+
+		#instrucao{
+			background-color: #424247;
+			opacity: 95%;
+			width: 30%;
+			height: 30%;
+			text-align: center;
+			font-size: 14px;
+			color: #ffffff;
+			top: 60%;
+			right: 60%;
+			position: absolute;
+			border-radius: 10%;
+			
+			text-shadow: 5px 5px 5px #000000;
+			
+			
+		}
+
+		#reg{
+			border:none;
+			padding: 1%;
+			position: absolute;
+			right: 70%;
+			background-color: #0e9fed;
+			color:#ffffff ;
+			border-radius: 10px;
+			cursor:pointer;
+
+
+		}
+
+		#ok2{
+			padding: 2%;
+			border:none;
+			background-color: #0e9fed;
+			color:#ffffff ;
+			font-size: 90%;
+			border-radius: 10%;
+			cursor:pointer;
+			
+		}
+
+		#face{
+			width: 15%;
+			height: 5%;
+			position: absolute;
+			right: 45%;
+		}
+
+		#whatsapp{
+			width: 5%;
+			height: 5%;
+			position: absolute;
+			right: 30%;
+		}
+
+		#fim{
+			background-color: #424247;
+			width: 30%;
+			height: 25%;
+			text-align: center;
+			font-size: 20px;
+			top: 40%;
+			right: 35%;
+			position: absolute;
+			border-radius: 20px;
+			color: #fff;
+			border-style: #ffffff;
+			text-shadow: 5px 5px 5px #000000;
+			display: none;
+			z-index: 1;
+		}
+}

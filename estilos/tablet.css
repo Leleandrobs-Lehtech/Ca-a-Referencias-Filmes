@@ -1,0 +1,325 @@
+@media screen and (min-width: 1024px) and (max-width: 1279px) and (orientation: landscape){
+	#corpo{
+	background-color: #424247;
+	background-size: 100%;
+}
+
+	.anuncio{
+			
+			opacity: 100%;
+			width: 18%;
+			height: 45%;
+			text-align: center;
+			font-size: 10px;
+			color: #ffffff;
+			top: 5%;
+			right: 10%;
+			position: fixed;
+
+
+	}
+
+	.an{
+		position: absolute;
+		opacity: 0;
+		animation-name: anim;
+		animation-duration: 30s;
+		animation-iteration-count: infinite;
+	}
+
+	@keyframes anim{
+		25%{
+			opacity: 1;
+			transform:scale(1.1,1.1);
+		}
+		90%{
+			opacity: 0;
+		}
+	}
+
+	#fundo {
+		position: relative;
+		background-image: url("backgroud.png") ;
+
+		width: 80%;
+		height: 600px;
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		
+}#vire{
+		display: none;
+
+}#resultado{
+		display: none;
+}
+	#logo{
+		position: absolute;
+		width: 200px;
+		height: 500px;
+		right: 45%;
+		top: 0px;
+		display: none;
+
+	}
+		.certo{
+			position: absolute;
+			
+			width: 100%;
+			height: 100%;
+		}
+
+		#nemo{
+			position: absolute;
+			display: none;
+			width: 4%;
+			height: 6%;
+			right: 62%;
+			top: 60%;
+
+		}
+
+		#mascara{
+			position: absolute;
+			display: none;
+			width: 4%;
+			height: 6%;
+			right: 80%;
+			top: 50%;
+		}
+
+		#macaco{
+			position: absolute;
+			display: none;
+			width: 4%;
+			height: 6%;
+			right: 45%;
+			top: 38%;
+		}
+
+		#anel{
+			position: absolute;
+			display: none;
+			width: 4%;
+			height: 6%;
+			right: 50%;
+			top: 47%;
+		}
+
+		#pirata{
+			position: absolute;
+			display: none;
+			width: 4%;
+			height: 6%;
+			right: 38%;
+			top: 50%;
+		}
+
+		#extra{
+			position: absolute;
+			display: none;
+			width: 4%;
+			height: 6%;
+			right: 43%;
+			top: 60%;
+		}
+
+		#jogos{
+			position: absolute;
+			display: none;
+			width: 4%;
+			height: 6%;
+			right: 20%;
+			top: 50%;
+		}
+
+		#mib{
+			position: absolute;
+			display: none;
+			width: 4%;
+			height: 6%;
+			right: 10%;
+			top: 85%;
+		}
+
+		#jumanji{
+			position: absolute;
+			display: none;
+			width: 4%;
+			height: 6%;
+			right: 38%;
+			top: 85%;
+		}
+
+		#matrix{
+			position: absolute;
+			display: none;
+			width: 4%;
+			height: 6%;
+			right: 53%;
+			top: 75%;
+		}
+
+		
+		#alert{
+			background-color: #424247;
+			width: 40%;
+			height: 35%;
+			text-align: center;
+			font-size: 25px;
+			top: 40%;
+			right: 35%;
+			position: absolute;
+			border-radius: 20px;
+			
+			border-style: #ffffff;
+			text-shadow: 5px 5px 5px #000000;
+			display: none;
+
+		}
+
+		#ok{
+			padding: 2%;
+			border:none;
+			background-color: #0e9fed;
+			color:#ffffff ;
+			font-size: 90%;
+			border-radius: 8px;
+			cursor:pointer;
+		}
+
+		#resposta{
+			position: absolute;
+			left: 57%;
+			top: 20%;
+			width: 60%;
+		}
+
+	
+
+		input[type="submit"]{
+			padding: 2%;
+			border:none;
+			background-color: #0e9fed;
+			color:#ffffff ;
+			
+			border-radius: 10px;
+			cursor:pointer;
+		}
+
+		input[type="text"]{
+			padding: 2%;
+			border-radius: 10px;
+
+		}
+
+		input[type="button"]{
+			padding: 2%;
+			border:none;
+			background-color:  #424247;
+			color:#ffffff ;
+			
+			border-radius: 10px;
+			
+		}
+
+		#pontuacao{
+			background-color:  #424247;
+			width: 20%;
+			border-radius: 10px;
+			color: #ffffff ; 
+		}
+
+		#instrucao{
+			background-color: #424247;
+			opacity: 95%;
+			width: 30%;
+			height: 35%;
+			text-align: center;
+			font-size: 10px;
+			color: #ffffff;
+			top: 60%;
+			right: 60%;
+			position: absolute;
+			border-radius: 10%;
+			
+			text-shadow: 5px 5px 5px #000000;
+			
+			
+		}
+
+		#reg{
+			border:none;
+			padding: 1%;
+			position: absolute;
+			right: 90%;
+			top: 40%;
+			background-color: #0e9fed;
+			color:#ffffff ;
+			border-radius: 10px;
+			cursor:pointer;
+
+
+		}
+
+		#mdesc{
+			border:none;
+			padding: 1%;
+			position: absolute;
+			right: 90%;
+			top: 85%;
+			background-color: #0e9fed;
+			color:#ffffff ;
+			border-radius: 10px;
+			cursor:pointer;
+
+
+		}
+
+		#ok2{
+			padding: 2%;
+			border:none;
+			background-color: #0e9fed;
+			color:#ffffff ;
+			font-size: 90%;
+			border-radius: 10%;
+			cursor:pointer;
+			
+		}
+
+		#face{
+			width: 10%;
+			height: 5%;
+			position: absolute;
+			right: 1px;
+			top: 40%;
+		}
+
+		#whatsapp{
+			width: 10%;
+			height: 5%;
+			position: absolute;
+			right: 1px;
+			top: 30%;
+		}
+
+		.fim{
+			background-color: #424247;
+			opacity: 95%;
+			width: 80%;
+			height: 280px;
+			text-align: center;
+			font-size: 30px;
+			top: 20%;
+			right: 10%;
+			position: absolute;
+			border-radius: 20px;
+			color: #fff;
+			border-style: #ffffff;
+			text-shadow: 5px 5px 5px #000000;
+			display: none;
+			z-index: 1;
+		}
+
+		
+}
+

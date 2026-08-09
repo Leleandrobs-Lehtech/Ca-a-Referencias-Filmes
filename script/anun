@@ -1,0 +1,6 @@
+$(function(){
+	
+	$(".anuncio").slick({
+	
+	})
+}
